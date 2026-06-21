@@ -18,7 +18,7 @@ for i in range(5):
     city = input(f"Enter city #{i + 1}: ").strip().lower()
     user_cities.append(city)
 
-# Loop through the list and check each city
+# look through the list and check each city
 
 print("\n--- Risk Report ---")
 
