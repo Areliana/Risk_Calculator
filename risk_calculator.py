@@ -5,6 +5,9 @@ risk_data = {
     "bertoua":   18,
     "garoua":    39,
     "limbe":     22,
+    "buea":      50,
+    "bamenda":   60,
+    "ebolowa":   40,
 }
 
 #  Collect 5 cities from the user into a list
@@ -39,7 +42,7 @@ for city in user_cities:
         results[city] = status
 
         
-print("\n--- Summary ---")
+
 print(f"Cities checked : {len(user_cities)}")
 print(f"High risk count: {high_risk_count}")
 print(f"Full results   : {results}")
