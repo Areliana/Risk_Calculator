@@ -39,7 +39,7 @@ for city in user_cities:
         results[city] = status
 
         
-
+print("\n--- Summary ---")
 print(f"Cities checked : {len(user_cities)}")
 print(f"High risk count: {high_risk_count}")
 print(f"Full results   : {results}")
